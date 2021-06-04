@@ -1,0 +1,108 @@
+/* COUNDOWN CSS */
+.countdown {
+  max-width: 500px;
+  min-width: 200px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  height: 200px;
+  background-image: -webkit-linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+  border-radius: 5px;
+}
+.countdown-days {
+  border-radius: 5px;
+  width: auto;
+  height: 50px;
+  display: block;
+  padding: 10px;
+  background-color: #e92035;
+  -webkit-box-shadow: 0px 0px 8px #fc466b;
+  box-shadow: 0px 0px 8px #fc466b;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 50%;
+  position: relative;
+}
+.countdown-days::after {
+  content: "Days";
+  font-size: 10px;
+}
+.countdown-hrs {
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  padding: 10px;
+  background-color: #3f5efb;
+  -webkit-box-shadow: 0px 0px 8px #fc466b;
+  box-shadow: 0px 0px 8px #fc466b;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 50%;
+  position: relative;
+}
+.countdown-hrs:after {
+  content: "Hours";
+  font-size: 10px;
+}
+.countdown-mins {
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  padding: 10px;
+  background-color: #3f5efb;
+  -webkit-box-shadow: 0px 0px 8px #fc466b;
+  box-shadow: 0px 0px 8px #fc466b;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 50%;
+  position: relative;
+}
+.countdown-mins:after {
+  content: "Minutes";
+  font-size: 10px;
+}
+.countdown-secs {
+  width: 50px;
+  height: 50px;
+  display: block;
+  padding: 10px;
+  background-color: #f69300;
+  -webkit-box-shadow: 0px 0px 8px #fc466b;
+  box-shadow: 0px 0px 8px #fc466b;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 50%;
+  position: relative;
+}
+.countdown-secs:after {
+  content: "Seconds";
+  font-size: 10px;
+}
+#expiry-text {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-shadow: 0px 0px 5px rgb(26, 26, 26);
+}
